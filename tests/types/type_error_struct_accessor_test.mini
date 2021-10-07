@@ -1,0 +1,10 @@
+struct Foo {
+  int i;
+  struct Foo f;
+}
+
+fun bar(struct Foo foo) struct Foo {
+  int i;
+  i = foo.f.f.d;
+  return new Foo;
+}

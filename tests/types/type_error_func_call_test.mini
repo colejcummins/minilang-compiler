@@ -1,0 +1,7 @@
+fun foo(int i) int {
+  return i;
+}
+
+fun bar(bool b) int {
+  return foo(b);
+}

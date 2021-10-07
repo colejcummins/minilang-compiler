@@ -1,0 +1,7 @@
+fun foo(int a, int b) int {
+  if (a + b) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
